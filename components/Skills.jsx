@@ -16,7 +16,7 @@ const Skills = () => {
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
                   <Image
-                    src="/../public/assets/skills/js.png"
+                    src="https://res.cloudinary.com/drscelx6f/image/upload/v1676410421/Portfolio_images/js_ksoe3r.png"
                     width="64"
                     height="64"
                     alt="/"
@@ -33,7 +33,7 @@ const Skills = () => {
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
                   <Image
-                    src="/../public/assets/skills/java.png"
+                    src="https://res.cloudinary.com/drscelx6f/image/upload/v1676410421/Portfolio_images/java_ibezbk.png"
                     width="64"
                     height="64"
                     alt="/"
@@ -50,7 +50,7 @@ const Skills = () => {
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
                   <Image
-                    src="/../public/assets/skills/nodejs.png"
+                    src="https://res.cloudinary.com/drscelx6f/image/upload/v1676410420/Portfolio_images/nodejs_hd2zo0.png"
                     width="64"
                     height="64"
                     alt="/"
@@ -67,7 +67,7 @@ const Skills = () => {
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
                   <Image
-                    src="/../public/assets/skills/react.png"
+                    src="https://res.cloudinary.com/drscelx6f/image/upload/v1676410420/Portfolio_images/react_vlw3za.png"
                     width="126"
                     height="100"
                     alt="/"
@@ -84,7 +84,7 @@ const Skills = () => {
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
                   <Image
-                    src="/../public/assets/skills/css-3.png"
+                    src="https://res.cloudinary.com/drscelx6f/image/upload/v1676410419/Portfolio_images/css-3_kzhorq.png"
                     width="64"
                     height="64"
                     alt="/"
@@ -101,7 +101,7 @@ const Skills = () => {
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
                   <Image
-                    src="/../public/assets/skills/nextjs.png"
+                    src="https://res.cloudinary.com/drscelx6f/image/upload/v1676410419/Portfolio_images/nextjs_gi024j.png"
                     width="72"
                     height="64"
                     alt="/"
@@ -118,7 +118,7 @@ const Skills = () => {
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
                   <Image
-                    src="/../public/assets/skills/tailwindcss.png"
+                    src="https://res.cloudinary.com/drscelx6f/image/upload/v1676410419/Portfolio_images/tailwindcss_tuapw1.png"
                     width="95"
                     height="64"
                     alt="/"
@@ -135,7 +135,7 @@ const Skills = () => {
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
                   <Image
-                    src="/../public/assets/skills/html-5.png"
+                    src="https://res.cloudinary.com/drscelx6f/image/upload/v1676410421/Portfolio_images/html-5_jfrvnf.png"
                     width="64"
                     height="64"
                     alt="/"
@@ -152,7 +152,7 @@ const Skills = () => {
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
                   <Image
-                    src="/../public/assets/skills/docker.png"
+                    src="https://res.cloudinary.com/drscelx6f/image/upload/v1676410420/Portfolio_images/docker_ot1ffj.png"
                     width="64"
                     height="64"
                     alt="/"
@@ -169,7 +169,7 @@ const Skills = () => {
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
                   <Image
-                    src="/../public/assets/skills/mongodb.png"
+                    src="https://res.cloudinary.com/drscelx6f/image/upload/v1676410420/Portfolio_images/mongodb_lplosn.png"
                     width="64"
                     height="64"
                     alt="/"
@@ -186,7 +186,7 @@ const Skills = () => {
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
                   <Image
-                    src="/../public/assets/skills/postgre.png"
+                    src="https://res.cloudinary.com/drscelx6f/image/upload/v1676410421/Portfolio_images/postgre_otnlbp.png"
                     width="64"
                     height="64"
                     alt="/"
@@ -203,7 +203,7 @@ const Skills = () => {
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
                   <Image
-                    src="/../public/assets/skills/mysql.png"
+                    src="https://res.cloudinary.com/drscelx6f/image/upload/v1676410421/Portfolio_images/mysql_t1rfzp.png"
                     width="64"
                     height="64"
                     alt="/"
