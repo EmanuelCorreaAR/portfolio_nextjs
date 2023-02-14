@@ -46,13 +46,25 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-      <div className={nav ? "fixed md:hidden left-0 top-0 w-full h-screen bg-black/60" : "" }>
-        <div className={nav ? "fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500" : 
-        "fixed left-[-100%] top-0 p-10 ease-in duration-500"}>
+      <div
+        className={
+          nav ? "fixed md:hidden left-0 top-0 w-full h-screen bg-black/60" : ""
+        }
+      >
+        <div
+          className={
+            nav
+              ? "fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500"
+              : "fixed left-[-100%] top-0 p-10 ease-in duration-500"
+          }
+        >
           <div>
             <div className="flex w-full items-center justify-between">
               <h5 className="text-[#5651e5]">EmaCorreaDEV</h5>
-              <div onClick={handleNav} className="rounded-full shadow-lg shadow-gray-500 p-2 cursor-pointer">
+              <div
+                onClick={handleNav}
+                className="rounded-full shadow-lg shadow-gray-500 p-2 cursor-pointer"
+              >
                 <AiOutlineClose />
               </div>
             </div>
@@ -81,7 +93,7 @@ const Navbar = () => {
                 <li className="py-5">Contact me</li>
               </Link>
             </ul>
-            <div className="pt-60">
+            <div className="pt-40">
               <p className="uppercase tracking-widest text-[#5651e5]">
                 Let's connect
               </p>
