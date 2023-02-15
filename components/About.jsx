@@ -2,13 +2,13 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="w-full md:h-screen p-2 flex items-center py-16">
+    <div id="about" className="w-full md:h-screen p-2 flex items-center py-16">
       <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
         <div className="col-span-2">
             <p className="uppercase text-xl tracking-widest text-[#5651e5]">About</p>
-            <h2 className="py-2">Who I am</h2>
-            <p className='py-2 text-gray-600'>
-            I specialize in building mobile responsive front-end UI applications
+            <h2 className="py-4">Who I am</h2>
+            <p className=' text-gray-600'>
+            I specialize in building mobile responsive front-end  UI applications
             that connect with API’s and other backend technologies. I’m
             passionate about learning new technologies and understand there is
             more than one way to accomplish a task. Though I am most proficient

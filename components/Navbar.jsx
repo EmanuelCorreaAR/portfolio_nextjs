@@ -1,5 +1,5 @@
 import Link from "next/link";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { AiOutlineMenu, AiOutlineClose, AiOutlineMail } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
@@ -7,48 +7,66 @@ import Image from "next/image";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
+  const [shadow, setShadow] = useState(false);
   const handleNav = () => {
     setNav(!nav);
   };
 
+  useEffect(() => {
+    const handleShadow = () => {
+      if (window.scrollY >= 90) {
+        setShadow(true);
+      } else {
+        setShadow(false);
+      }
+    };
+    window.addEventListener("scroll", handleShadow);
+  }, []);
+
   return (
-    <div className="fixed w-full h-20 shadow-xl z-[100]">
-      <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
-        <Image
-          src="https://res.cloudinary.com/drscelx6f/image/upload/v1676474306/Portfolio_images/Logo_Marca_Personal_Masculino_con_Iniciales_y_Nombre_Profesional_Blanco_y_Negro_1_jcjd0q.png"
-          width="150"
-          height="50"
-          alt="/"
-        />
+    <div
+      className={
+        shadow
+          ? "fixed w-full h-20 shadow-xl z-[100]"
+          : "fixed w-full h-20 z-[100]"
+      }
+    >
+      <div className="flex justify-between items-center w-full h-full px-3 2xl:px-16">
+        <Link href="/">
+          <Image
+            src="https://res.cloudinary.com/drscelx6f/image/upload/v1676474306/Portfolio_images/Logo_Marca_Personal_Masculino_con_Iniciales_y_Nombre_Profesional_Blanco_y_Negro_1_jcjd0q.png"
+            width="150"
+            height="50"
+            alt="/"
+          />
+        </Link>
         <div>
           <ul className="hidden md:flex">
-            <Link href="/">
+            <Link href="/#main">
               <li className="mr-5 text-sm uppercase hover:border-b">Home</li>
             </Link>
-            <Link href="/">
+            <Link href="/#about">
               <li className="mr-5 text-sm uppercase hover:border-b">About</li>
             </Link>
-            <Link href="/">
+            <Link href="/#skills">
               <li className="mr-5 text-sm uppercase hover:border-b">Skills</li>
             </Link>
-            <Link href="/">
+            <Link href="/#certificates">
               <li className="mr-5 text-sm uppercase hover:border-b">
                 Certifications
               </li>
             </Link>
-            <Link href="/">
+            <Link href="/#projects">
               <li className="mr-5 text-sm uppercase hover:border-b">
                 Projects
               </li>
             </Link>
-            <Link href="/">
-              <li className="mr-5 text-sm uppercase hover:border-b">
-                Contact
-              </li>
+            <Link href="/#contact">
+              <li className="mr-5 text-sm uppercase hover:border-b">Contact</li>
             </Link>
           </ul>
           <div onClick={handleNav} className="md:hidden">
-            <AiOutlineMenu size={40} className="pb-1"/>
+            <AiOutlineMenu size={40} className="pb-1" />
           </div>
         </div>
       </div>
@@ -64,10 +82,10 @@ const Navbar = () => {
               : "fixed left-[-100%] top-0 p-10 ease-in duration-500"
           }
         >
-          <div >
-            <div className="flex w-full items-center justify-between">
+          <div>
+            <div className="flex w-full items-center justify-between translate-y-[-42%]">
               <Image
-              className="pt-6"
+                className="translate-x-[-25%] translate-y-[7%]"
                 src="https://res.cloudinary.com/drscelx6f/image/upload/v1676474306/Portfolio_images/Logo_Marca_Personal_Masculino_con_Iniciales_y_Nombre_Profesional_Blanco_y_Negro_1_jcjd0q.png"
                 width="160"
                 height="100"
@@ -80,7 +98,7 @@ const Navbar = () => {
                 <AiOutlineClose />
               </div>
             </div>
-            <div className="border-b border-gray-400">
+            <div className="border-b translate-y-[-300%] border-gray-400">
               <p>Building the future</p>
             </div>
           </div>

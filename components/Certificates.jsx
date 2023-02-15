@@ -4,12 +4,12 @@ import Image from "next/image";
 
 const Certificates = () => {
   return (
-    <div className="w-full lg:h-screen p-3">
+    <div id="certificates" className="w-full lg:h-screen p-3">
       <div className="max-w-[1240px] mx-auto flex-col justify-center h-full">
         <p className="uppercase text-xl tracking-widest pt-10 text-[#5651e5]">
           Certifications
         </p>
-        <h2 className="py-2 pb-5">Certificate Of Knowledge</h2>
+        <h2 className="py-4 pb-5">Certificate Of Knowledge</h2>
         <div className="grid lg:grid-cols-2 md:grid-cols-2 gap-6">
           <Link href="https://certificates.soyhenry.com/cert?id=a371a88c-e6f7-4e4b-8b5e-fbfbbdffa1ae">
             <div className="flex shadow-xl shadow-gray-400 rounded-xl hover:scale-105 ease-in duration-300">
