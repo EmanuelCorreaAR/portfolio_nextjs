@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose, AiOutlineMail } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
+import Image from "next/image";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -13,7 +14,12 @@ const Navbar = () => {
   return (
     <div className="fixed w-full h-20 shadow-xl z-[100]">
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
-        <h4 className="p-2">EmaCorreaDEV</h4>
+        <Image
+          src="https://res.cloudinary.com/drscelx6f/image/upload/v1676474306/Portfolio_images/Logo_Marca_Personal_Masculino_con_Iniciales_y_Nombre_Profesional_Blanco_y_Negro_1_jcjd0q.png"
+          width="150"
+          height="50"
+          alt="/"
+        />
         <div>
           <ul className="hidden md:flex">
             <Link href="/">
@@ -37,12 +43,12 @@ const Navbar = () => {
             </Link>
             <Link href="/">
               <li className="mr-5 text-sm uppercase hover:border-b">
-                Contact me
+                Contact
               </li>
             </Link>
           </ul>
           <div onClick={handleNav} className="md:hidden">
-            <AiOutlineMenu size={26} />
+            <AiOutlineMenu size={40} className="pb-1"/>
           </div>
         </div>
       </div>
@@ -58,9 +64,15 @@ const Navbar = () => {
               : "fixed left-[-100%] top-0 p-10 ease-in duration-500"
           }
         >
-          <div>
+          <div >
             <div className="flex w-full items-center justify-between">
-              <h5 className="text-[#5651e5]">EmaCorreaDEV</h5>
+              <Image
+              className="pt-6"
+                src="https://res.cloudinary.com/drscelx6f/image/upload/v1676474306/Portfolio_images/Logo_Marca_Personal_Masculino_con_Iniciales_y_Nombre_Profesional_Blanco_y_Negro_1_jcjd0q.png"
+                width="160"
+                height="100"
+                alt="/"
+              />
               <div
                 onClick={handleNav}
                 className="rounded-full shadow-lg shadow-gray-500 p-2 cursor-pointer"
@@ -68,7 +80,7 @@ const Navbar = () => {
                 <AiOutlineClose />
               </div>
             </div>
-            <div className="border-b border-gray-400 my-4">
+            <div className="border-b border-gray-400">
               <p>Building the future</p>
             </div>
           </div>
@@ -90,14 +102,14 @@ const Navbar = () => {
                 <li className="py-3">Projects</li>
               </Link>
               <Link href="/">
-                <li className="py-3">Contact me</li>
+                <li className="py-3">Contact</li>
               </Link>
             </ul>
             <div className="mt-40">
               <p className="uppercase tracking-widest text-[#5651e5]">
                 Let's connect
               </p>
-              <div className="flex items-center justify-between p-2 my-4 w-full sm:w[80%]">
+              <div className="flex items-center justify-between p-2 my-2 w-full sm:w[70%]">
                 <div className="rounded-full shadow-lg shadow-gray-500 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                   <FaLinkedinIn />
                 </div>
