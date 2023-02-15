@@ -72,32 +72,32 @@ const Navbar = () => {
               <p>Building the future</p>
             </div>
           </div>
-          <div className="py-10 flex flex-col">
+          <div className="py-6 flex flex-col">
             <ul className="uppercase">
               <Link href="/">
-                <li className="py-5">Home</li>
+                <li className="py-3">Home</li>
               </Link>
               <Link href="/">
-                <li className="py-5">About</li>
+                <li className="py-3">About</li>
               </Link>
               <Link href="/">
-                <li className="py-5">Skills</li>
+                <li className="py-3">Skills</li>
               </Link>
               <Link href="/">
-                <li className="py-5">Certifications</li>
+                <li className="py-3">Certifications</li>
               </Link>
               <Link href="/">
-                <li className="py-5">Projects</li>
+                <li className="py-3">Projects</li>
               </Link>
               <Link href="/">
-                <li className="py-5">Contact me</li>
+                <li className="py-3">Contact me</li>
               </Link>
             </ul>
-            <div className="pt-40">
+            <div className="mt-40">
               <p className="uppercase tracking-widest text-[#5651e5]">
                 Let's connect
               </p>
-              <div className="flex items-center justify-between my-4 w-full sm:w[80%]">
+              <div className="flex items-center justify-between p-2 my-4 w-full sm:w[80%]">
                 <div className="rounded-full shadow-lg shadow-gray-500 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                   <FaLinkedinIn />
                 </div>
