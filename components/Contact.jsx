@@ -8,8 +8,8 @@ import Link from "next/link";
 
 const Contact = () => {
   return (
-    <div id="contact" className="w-full lg:h-screen">
-      <div className="max-w-[1240px] m-auto px-2 py-2 w-full">
+    <div id="contact" className="w-full lg:h-screen pt-20">
+      <div className="max-w-[1680px] m-auto px-2 py-2 w-full">
         <p className="text-xl tracking-widest uppercase text-[#5651e5]">
           Contact
         </p>
@@ -103,7 +103,7 @@ const Contact = () => {
           </div>
         </div>
         <div className="flex justify-center py-12">
-          <Link href="/">
+          <Link href="#main" scroll={false}>
           <div className="rounded-full shadow-lg shadow-gray-500 p-4 cursor-pointer hover:scale-105 ease-in duration-300">
               <HiOutlineChevronDoubleUp className="text-[#5651e5]" size={35}/>
             </div>

@@ -4,8 +4,8 @@ import Image from "next/image";
 
 const Certificates = () => {
   return (
-    <div id="certificates" className="w-full lg:h-screen p-3">
-      <div className="max-w-[1240px] mx-auto flex-col justify-center h-full">
+    <div id="certificates" className="w-full lg:h-screen pt-20">
+      <div className="max-w-[1680px] mx-auto flex-col justify-center h-full">
         <p className="uppercase text-xl tracking-widest pt-10 text-[#5651e5]">
           Certifications
         </p>

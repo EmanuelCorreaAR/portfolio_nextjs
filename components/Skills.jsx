@@ -4,8 +4,8 @@ import Link from "next/link";
 
 const Skills = () => {
   return (
-    <div id="skills" className="w-full lg:h-screen p-2">
-      <div className="max-w-[1240px] mx-auto flex-col justify-center h-full">
+    <div id="skills" className="w-full lg:h-screen pt-20">
+      <div className="max-w-[1680px] mx-auto flex-col justify-center h-full">
         <p className="uppercase text-xl tracking-widest text-[#5651e5]">
           Skills
         </p>

@@ -4,13 +4,30 @@ import { AiOutlineMenu, AiOutlineClose, AiOutlineMail } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import Image from "next/image";
+import { useRouter } from "next/router";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
+  const [navBg, setNavBg] = useState("#ecf0f3");
+  const [linkColor, setLinkColor] = useState("#1f2937");
+  const router = useRouter();
+
   const handleNav = () => {
     setNav(!nav);
   };
+
+  useEffect(() => {
+    if(
+      router.asPath ==="/wikidogs"
+    ){
+      setNavBg("transparent")
+      setLinkColor("ecf0f3")
+    }else{
+      setNavBg("#ecf0f3")
+      setLinkColor("#1f2937")
+    }
+  }, [router]);
 
   useEffect(() => {
     const handleShadow = () => {
@@ -25,6 +42,7 @@ const Navbar = () => {
 
   return (
     <div
+    style={{backgroundColor:`${navBg}`}}
       className={
         shadow
           ? "fixed w-full h-20 shadow-xl z-[100]"
@@ -32,7 +50,7 @@ const Navbar = () => {
       }
     >
       <div className="flex justify-between items-center w-full h-full px-3 2xl:px-16">
-        <Link href="/">
+        <Link href="#main">
           <Image
             src="https://res.cloudinary.com/drscelx6f/image/upload/v1676474306/Portfolio_images/Logo_Marca_Personal_Masculino_con_Iniciales_y_Nombre_Profesional_Blanco_y_Negro_1_jcjd0q.png"
             width="150"
@@ -41,27 +59,28 @@ const Navbar = () => {
           />
         </Link>
         <div>
-          <ul className="hidden md:flex">
-            <Link href="/#main">
+          <ul style={{color:`${linkColor}`}} className="hidden md:flex">
+            <Link href="#main" scroll={false}>
               <li className="mr-5 text-sm uppercase hover:border-b">Home</li>
             </Link>
-            <Link href="/#about">
+            <Link href="#about" scroll={false}>
               <li className="mr-5 text-sm uppercase hover:border-b">About</li>
             </Link>
-            <Link href="/#skills">
+            <Link href="#skills" scroll={false}>
               <li className="mr-5 text-sm uppercase hover:border-b">Skills</li>
             </Link>
-            <Link href="/#certificates">
-              <li className="mr-5 text-sm uppercase hover:border-b">
-                Certifications
-              </li>
-            </Link>
-            <Link href="/#projects">
+            <Link href="#projects" scroll={false}>
               <li className="mr-5 text-sm uppercase hover:border-b">
                 Projects
               </li>
             </Link>
-            <Link href="/#contact">
+            <Link href="#certificates" scroll={false}>
+              <li className="mr-5 text-sm uppercase hover:border-b">
+                Certifications
+              </li>
+            </Link>
+
+            <Link href="#contact" scroll={false}>
               <li className="mr-5 text-sm uppercase hover:border-b">Contact</li>
             </Link>
           </ul>
@@ -104,22 +123,22 @@ const Navbar = () => {
           </div>
           <div className="py-6 flex flex-col">
             <ul className="uppercase">
-              <Link href="/">
+              <Link href="#main" scroll={false}>
                 <li className="py-3">Home</li>
               </Link>
-              <Link href="/">
+              <Link href="#about" scroll={false}>
                 <li className="py-3">About</li>
               </Link>
-              <Link href="/">
+              <Link href="#skills" scroll={false}>
                 <li className="py-3">Skills</li>
               </Link>
-              <Link href="/">
-                <li className="py-3">Certifications</li>
-              </Link>
-              <Link href="/">
+              <Link href="#projects" scroll={false}>
                 <li className="py-3">Projects</li>
               </Link>
-              <Link href="/">
+              <Link href="#certificates" scroll={false}>
+                <li className="py-3">Certifications</li>
+              </Link>
+              <Link href="#contact" scroll={false}>
                 <li className="py-3">Contact</li>
               </Link>
             </ul>
