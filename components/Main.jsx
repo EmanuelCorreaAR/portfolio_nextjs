@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const Main = () => {
   return (
-    <div id="main" className="w-full h-screen text-center">
+    <div id="main" className="w-full h-screen text-center ">
       <div className="max-w-[1680px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div>
           <p className="uppercase text-sm text-gray-800">

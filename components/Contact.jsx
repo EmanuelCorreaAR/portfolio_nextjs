@@ -18,7 +18,7 @@ const initState = { values: initValues };
 
 const Contact = () => {
   const [state, setState] = useState(initState);
-  const { values, isLoading, error } = state;
+  const { values, isloading, error } = state;
 
   const onSubmit = async () => {
     setState((prev) => ({
@@ -31,7 +31,7 @@ const Contact = () => {
     } catch (error) {
       setState((prev) => ({
         ...prev,
-        isLoading: false,
+        isloading: false,
         error: error.message,
       }));
     }
@@ -47,8 +47,8 @@ const Contact = () => {
     }));
 
   return (
-    <div id="contact" className="w-full lg:h-screen pt-20">
-      <div className="max-w-[1680px] m-auto px-2 py-2 w-full">
+    <div id="contact" className="w-full h-full">
+      <div className="max-w-[1680px] m-auto p-4 py-16 w-full">
         <p className="text-xl tracking-widest uppercase text-[#5651e5]">
           Contact
         </p>
@@ -176,7 +176,7 @@ const Contact = () => {
                     !values.subject
                   }
                   onClick={onSubmit}
-                  isLoading={isLoading}
+                  isloading={isloading}
                 >
                   Send Message
                 </button>
@@ -184,19 +184,21 @@ const Contact = () => {
             </div>
           </div>
         </div>
-        <div className="flex justify-center py-12">
+        <div className="flex justify-center py-10">
           <Link href="#main" scroll={false}>
             <div className="rounded-full shadow-lg shadow-gray-500 p-4 cursor-pointer hover:scale-105 ease-in duration-300">
               <HiOutlineChevronDoubleUp className="text-[#5651e5]" size={35} />
             </div>
           </Link>
+          
         </div>
-      </div>
-      <div>
-        <h4 className=" p-6 flex justify-center">
-          Todos los derechos reservados-2023
+        <div>
+        <h4 className=" p-3 flex justify-center mb-[-10%]">
+          Created with a lot ♥ 2023
         </h4>
       </div>
+      </div>
+   
     </div>
   );
 };

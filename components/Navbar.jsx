@@ -47,12 +47,13 @@ const Navbar = () => {
           : "fixed w-full h-20 z-[100]"
       }
     >
-      <div className="flex justify-between items-center w-full h-full px-3 2xl:px-16">
+      <div className="flex justify-between items-center w-full h-full px-2 xl:px-10">
         <Link href="#main">
           <Image
+            className="w-auto h-auto "
             src="https://res.cloudinary.com/drscelx6f/image/upload/v1676474306/Portfolio_images/Logo_Marca_Personal_Masculino_con_Iniciales_y_Nombre_Profesional_Blanco_y_Negro_1_jcjd0q.png"
             width="150"
-            height="50"
+            height="150"
             alt="/"
           />
         </Link>
@@ -100,9 +101,9 @@ const Navbar = () => {
           }
         >
           <div>
-            <div className="flex w-full items-center justify-between translate-y-[-42%]">
+            <div className="flex items-center justify-between translate-y-[-42%] ">
               <Image
-                className="translate-x-[-25%] translate-y-[7%]"
+                className="translate-x-[-25%] translate-y-[7%] w-auto h-auto "
                 src="https://res.cloudinary.com/drscelx6f/image/upload/v1676474306/Portfolio_images/Logo_Marca_Personal_Masculino_con_Iniciales_y_Nombre_Profesional_Blanco_y_Negro_1_jcjd0q.png"
                 width="160"
                 height="100"
@@ -119,7 +120,7 @@ const Navbar = () => {
               <p>Building the future</p>
             </div>
           </div>
-          <div className="py-6 flex flex-col">
+          <div className="py-2 flex flex-col translate-y-[-14%]">
             <ul className="uppercase">
               <Link href="#main" scroll={false}>
                 <li className="py-3">Home</li>
@@ -140,28 +141,28 @@ const Navbar = () => {
                 <li className="py-3">Contact</li>
               </Link>
             </ul>
-            <div className="mt-40">
+            <div className="pt-4 translate-y-[50%]">
               <p className="uppercase tracking-widest text-[#5651e5]">
                 Let's connect
               </p>
               <div className="flex items-center justify-between p-2 my-2 w-full sm:w[70%]">
                 <Link href="https://www.linkedin.com/in/emanuel-s-correa-5b4b40139/">
-                  <div className="rounded-full shadow-lg shadow-gray-500 p-5 cursor-pointer hover:scale-105 ease-in duration-300">
+                  <div className="rounded-full shadow-lg shadow-gray-500 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                     <FaLinkedinIn />
                   </div>
                 </Link>
                 <Link href="https://github.com/EmanuelCorreaAR">
-                  <div className="rounded-full shadow-lg shadow-gray-500 p-5 cursor-pointer hover:scale-105 ease-in duration-300">
+                  <div className="rounded-full shadow-lg shadow-gray-500 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                     <FaGithub />
                   </div>
                 </Link>
                 <Link href="mailto:emanuel.sal.correa@gmail.com">
-                  <div className="rounded-full shadow-lg shadow-gray-500 p-5 cursor-pointer hover:scale-105 ease-in duration-300">
+                  <div className="rounded-full shadow-lg shadow-gray-500 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                     <AiOutlineMail />
                   </div>
                 </Link>
                 <Link href="https://drive.google.com/file/d/1wxdLc5UvYszHwDiOV43lq5nSWw5ZHx15/view?usp=share_link">
-                  <div className="rounded-full shadow-lg shadow-gray-500 p-5 cursor-pointer hover:scale-105 ease-in duration-300">
+                  <div className="rounded-full shadow-lg shadow-gray-500 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                     <BsFillPersonLinesFill />
                   </div>
                 </Link>

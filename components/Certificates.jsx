@@ -4,25 +4,26 @@ import Image from "next/image";
 
 const Certificates = () => {
   return (
-    <div id="certificates" className="w-full lg:h-screen pt-20">
-      <div className="max-w-[1680px] mx-auto flex-col justify-center h-full">
+    <div id="certificates" className="w-full h-full">
+      <div className="max-w-[1680px] mx-auto my-auto px-3 py-6">
         <p className="uppercase text-xl tracking-widest pt-4 text-[#5651e5]">
           Certifications
         </p>
-        <h2 className="py-4 pb-5">Certificate Of Knowledge</h2>
-        <div className="grid lg:grid-cols-2 md:grid-cols-2 gap-6">
+        <h2 className="pt-2 pb-5">Certificate Of Knowledge</h2>
+        <div className=" grid lg:grid-cols-2 md:grid-cols-2 gap-6">
           <Link href="https://certificates.soyhenry.com/cert?id=a371a88c-e6f7-4e4b-8b5e-fbfbbdffa1ae">
-            <div className="flex shadow-xl shadow-gray-400 rounded-xl hover:scale-105 ease-in duration-300">
-              <div className="grid sm:grid-col lg:grid-cols-2 gap-2 justify-center items-center">
+            <div className=" flex shadow-xl shadow-gray-400 rounded-xl hover:scale-105 ease-in duration-300">
+              <div className="grid sm:grid-col lg:grid-cols-2 gap-2 justify-center items-center  ">
                 <div className="m-auto">
                   <Image
+                  className="w-auto h-auto"
                     src="https://res.cloudinary.com/drscelx6f/image/upload/v1676434055/Certificates_images/Titulo_Henry_f8u7vi.jpg"
-                    width="230"
-                    height="230"
+                    width="200"
+                    height="200"
                     alt="/"
                   />
                 </div>
-                <div className="flex flex-col items-center justify-center">
+                <div className="flex flex-col text-center m-2">
                   <p className="text-md">FULL STACK DEVELOPER</p>
                   <p className="text-sm p-2 text-gray-600">
                     Intensive career with +800 hours of code, focused on
@@ -39,13 +40,14 @@ const Certificates = () => {
               <div className="grid sm:grid-col lg:grid-cols-2 gap-2 justify-center items-center">
                 <div className="m-auto">
                   <Image
+                  className="w-auto h-auto"
                     src="https://res.cloudinary.com/drscelx6f/image/upload/v1676427644/Certificates_images/css_certificate_tpjsfc.jpg"
-                    width="230"
-                    height="230"
+                    width="200"
+                    height="200"
                     alt="/"
                   />
                 </div>
-                <div className="flex flex-col items-center justify-center">
+                <div className="flex flex-col text-center m-2">
                   <p className="text-md">CSS</p>
                   <p className="text-sm p-2 text-gray-600">
                     It covers topics like exploring Cascading and Inheritance,
@@ -62,13 +64,14 @@ const Certificates = () => {
               <div className="grid sm:grid-col lg:grid-cols-2 gap-2 justify-center items-center">
                 <div className="m-auto">
                   <Image
+                  className="w-auto h-auto"
                     src="https://res.cloudinary.com/drscelx6f/image/upload/v1676428063/Certificates_images/javascript_intermediate_certificate_aogga0.jpg"
-                    width="230"
-                    height="230"
+                    width="200"
+                    height="200"
                     alt="/"
                   />
                 </div>
-                <div className="flex flex-col items-center justify-center">
+                <div className="flex flex-col text-center m-2">
                   <p className="text-md">JAVASCRIPT INTERMEDIATE</p>
                   <p className="text-sm p-2 text-gray-600">
                     It covers topics like Design Patterns, Memory management,
@@ -81,15 +84,16 @@ const Certificates = () => {
           <Link href="https://www.hackerrank.com/certificates/7fec95b2f4d7">
             <div className="flex shadow-xl shadow-gray-400 rounded-xl hover:scale-105 ease-in duration-300">
               <div className="grid sm:grid-col lg:grid-cols-2 gap-2 justify-center items-center">
-                <div className="m-auto">
+                <div className="m-auto ">
                   <Image
+                  className="w-auto h-auto"
                     src="https://res.cloudinary.com/drscelx6f/image/upload/v1676427679/Certificates_images/rest_api_intermediate_certificate_j3tbeh.jpg"
-                    width="230"
-                    height="230"
+                    width="200"
+                    height="200"
                     alt="/"
                   />
                 </div>
-                <div className="flex flex-col items-center justify-center">
+                <div className="flex flex-col text-center m-2">
                   <p className="text-md">REST API INTERMEDIATE</p>
                   <p className="text-sm p-2 text-gray-600">
                     It covers topics like getting data from an API and process
@@ -104,13 +108,14 @@ const Certificates = () => {
               <div className="grid sm:grid-col lg:grid-cols-2 gap-2 justify-center items-center">
                 <div className="m-auto">
                   <Image
+                  className="w-auto h-auto"
                     src="https://res.cloudinary.com/drscelx6f/image/upload/v1676427559/Certificates_images/nodejs_basic_certificate_tj7xwm.jpg"
-                    width="230"
-                    height="230"
+                    width="200"
+                    height="200"
                     alt="/"
                   />
                 </div>
-                <div className="flex flex-col items-center justify-center">
+                <div className="flex flex-col text-center m-2">
                   <p className="text-md">NODE BASIC</p>
                   <p className="text-sm p-2 text-gray-600">
                     It covers topics like Package and Modules Management,
@@ -126,13 +131,14 @@ const Certificates = () => {
               <div className="grid sm:grid-col lg:grid-cols-2 gap-2 justify-center items-center">
                 <div className="m-auto">
                   <Image
+                  className="w-auto h-auto"
                     src="https://res.cloudinary.com/drscelx6f/image/upload/v1676427667/Certificates_images/sql_basic_certificate_k6doke.jpg"
-                    width="230"
-                    height="230"
+                    width="200"
+                    height="200"
                     alt="/"
                   />
                 </div>
-                <div className="flex flex-col items-center justify-center">
+                <div className="flex flex-col text-center m-2">
                   <p className="text-md">SQL BASIC</p>
                   <p className="text-sm p-2  text-gray-600">
                     It includes simple queries, relationships, and aggregators.This competency includes using aggregations such as SUM, COUNT, AVG. 
@@ -146,13 +152,14 @@ const Certificates = () => {
               <div className="grid sm:grid-col lg:grid-cols-2 gap-2 justify-center items-center">
                 <div className="m-auto">
                   <Image
+                  className="w-auto h-auto"
                     src="https://res.cloudinary.com/drscelx6f/image/upload/v1676427660/Certificates_images/react_basic_certificate_p6hv6j.jpg"
-                    width="230"
-                    height="230"
+                    width="200"
+                    height="200"
                     alt="/"
                   />
                 </div>
-                <div className="flex flex-col items-center justify-center">
+                <div className="flex flex-col text-center m-2">
                   <p className="text-md">REACT BASIC</p>
                   <p className="text-sm p-2  text-gray-600">
                     It covers topics like Basic Routing, Rendering
@@ -166,15 +173,16 @@ const Certificates = () => {
           <Link href="https://www.hackerrank.com/certificates/7a2397df0f44">
             <div className="flex shadow-xl shadow-gray-400 rounded-xl hover:scale-105 ease-in duration-300">
               <div className="grid sm:grid-col lg:grid-cols-2 gap-2 justify-center items-center">
-                <div className="m-auto">
+                <div className="m-auto ">
                   <Image
+                  className="w-auto h-auto"
                     src="https://res.cloudinary.com/drscelx6f/image/upload/v1676428020/Certificates_images/problem_solving_basic_certificate_kl5elp.jpg"
-                    width="230"
-                    height="230"
+                    width="200"
+                    height="200"
                     alt="/"
                   />
                 </div>
-                <div className="flex flex-col items-center justify-center">
+                <div className="flex flex-col text-center m-2">
                   <p className="text-md">PROBLEM SOLVING BASIC</p>
                   <p className="text-sm p-2 text-gray-600">
                     It covers basic topics of Basic Data Structures (such as Arrays,
