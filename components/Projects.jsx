@@ -15,10 +15,10 @@ const Projects = () => {
         <div className="grid md:grid-cols-2 gap-8 ">
           <div className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl p-4 group hover:bg-gradient-to-r from-[#5651e5] to-[#709dff]">
             <Image
-              className="rounded-xl w-full h-full group-hover:opacity-10"
+              className="rounded-xl group-hover:opacity-10"
               src="https://res.cloudinary.com/drscelx6f/image/upload/v1676412534/Projects_images/tiger_coffee_hjn2kt.png"
-              width="600"
-              height="600"
+              width="700"
+              height="700"
               alt="/"
             />
             <div className="hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] ">
@@ -40,10 +40,10 @@ const Projects = () => {
           </div>
           <div className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl p-4 group hover:bg-gradient-to-r from-[#5651e5] to-[#709dff]">
             <Image
-              className="w-full h-full rounded-xl group-hover:opacity-10"
+              className="rounded-xl group-hover:opacity-10"
               src="https://res.cloudinary.com/drscelx6f/image/upload/v1676412536/Projects_images/wikidogs_asdsla.png"
-              width="600"
-              height="600"
+              width="700"
+              height="700"
               alt="/"
             />
             <div className="hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] ">
@@ -66,10 +66,10 @@ const Projects = () => {
 
           <div className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl p-4 group hover:bg-gradient-to-r from-[#5651e5] to-[#709dff]">
             <Image
-              className="w-full h-full rounded-xl group-hover:opacity-10"
+              className="rounded-xl group-hover:opacity-10"
               src="https://res.cloudinary.com/drscelx6f/image/upload/v1676412535/Projects_images/photo_gallery_app_sglzdw.png"
-              width="600"
-              height="600"
+              width="700"
+              height="700"
               alt="/"
             />
             <div className="hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] ">
@@ -92,10 +92,10 @@ const Projects = () => {
 
           <div className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl p-4 group hover:bg-gradient-to-r from-[#5651e5] to-[#709dff]">
             <Image
-              className=" w-full h-full rounded-xl group-hover:opacity-10"
+              className="rounded-xl group-hover:opacity-10"
               src="https://res.cloudinary.com/drscelx6f/image/upload/v1676412533/Projects_images/weather_app_e1lrfw.png"
-              width="600"
-              height="600"
+              width="700"
+              height="700"
               alt="/"
             />
             <div className="hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] ">
