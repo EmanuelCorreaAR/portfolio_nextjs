@@ -1,12 +1,51 @@
-import React from "react";
+import React, { useState } from "react";
 import { AiOutlineMail } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
-
 import Link from "next/link";
+import { sendContactForm } from "../lib/api";
+
+const initValues = {
+  name: "",
+  phone_number: "",
+  email: "",
+  subject: "",
+  message: "",
+};
+
+const initState = { values: initValues };
 
 const Contact = () => {
+  const [state, setState] = useState(initState);
+  const { values, isLoading, error } = state;
+
+  const onSubmit = async () => {
+    setState((prev) => ({
+      ...prev,
+      isLoading: true,
+    }));
+    try {
+      await sendContactForm(values);
+      setState(initState);
+    } catch (error) {
+      setState((prev) => ({
+        ...prev,
+        isLoading: false,
+        error: error.message,
+      }));
+    }
+  };
+
+  const handleChange = ({ target }) =>
+    setState((prev) => ({
+      ...prev,
+      values: {
+        ...prev.values,
+        [target.name]: target.value,
+      },
+    }));
+
   return (
     <div id="contact" className="w-full lg:h-screen pt-20">
       <div className="max-w-[1680px] m-auto px-2 py-2 w-full">
@@ -55,13 +94,22 @@ const Contact = () => {
           {/*left*/}
           <div className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl ">
             <div className="p-4">
-              <form action="">
+              {error && (
+                <Text color="red.300" my={4} fontSize="xl">
+                  {error}
+                </Text>
+              )}
+              <form>
                 <div className="grid md:grid-cols-2 gap-4 w-full py-2">
                   <div className="flex flex-col">
                     <label className="uppercase text-sm py-2 ">Name</label>
                     <input
+                      placeholder="Please enter your name"
                       className="border-2 rounded-lg p-3 border-gray-300"
                       type="text"
+                      name="name"
+                      value={values.name}
+                      onChange={handleChange}
                     />
                   </div>
                   <div className="flex flex-col">
@@ -69,33 +117,59 @@ const Contact = () => {
                       Phone Number
                     </label>
                     <input
+                      placeholder="Please enter your phone number"
                       className="border-2 rounded-lg p-3 border-gray-300"
                       type="text"
+                      name="phone_number"
+                      value={values.phone_number}
+                      onChange={handleChange}
                     />
                   </div>
                 </div>
                 <div className=" flex flex-col py-2">
                   <label className="uppercase text-sm py-2">Email</label>
                   <input
-                    className="border-2 rounded-lg p-3 border-gray-300"
+                    placeholder="Please enter your email address"
+                    className="border-2 rounded-lg p-3 border-gray-300 peer invalid:border-red-500"
                     type="email"
+                    name="email"
+                    value={values.email}
+                    onChange={handleChange}
                   />
                 </div>
                 <div className=" flex flex-col py-2">
                   <label className="uppercase text-sm py-2">Subject</label>
                   <input
-                    className="border-2 rounded-lg p-3 border-gray-300"
+                    placeholder="Please enter a subject"
+                    className="border-2 rounded-lg p-3 border-gray-300 "
                     type="text"
+                    name="subject"
+                    value={values.subject}
+                    onChange={handleChange}
                   />
                 </div>
                 <div className=" flex flex-col py-2">
                   <label className="uppercase text-sm py-2">Message</label>
                   <textarea
+                    placeholder="Please enter a message here"
                     className="border-2 rounded-lg p-3 border-gray-300 "
                     rows="8"
+                    name="message"
+                    value={values.message}
+                    onChange={handleChange}
                   ></textarea>
                 </div>
-                <button className="w-full p-4 text-gray-50 mt-4">
+                <button
+                  className="w-full p-4 text-gray-50 mt-4"
+                  disabled={
+                    !values.name ||
+                    !values.email ||
+                    !values.message ||
+                    !values.subject
+                  }
+                  onClick={onSubmit}
+                  isLoading={isLoading}
+                >
                   Send Message
                 </button>
               </form>
@@ -104,14 +178,16 @@ const Contact = () => {
         </div>
         <div className="flex justify-center py-12">
           <Link href="#main" scroll={false}>
-          <div className="rounded-full shadow-lg shadow-gray-500 p-4 cursor-pointer hover:scale-105 ease-in duration-300">
-              <HiOutlineChevronDoubleUp className="text-[#5651e5]" size={35}/>
+            <div className="rounded-full shadow-lg shadow-gray-500 p-4 cursor-pointer hover:scale-105 ease-in duration-300">
+              <HiOutlineChevronDoubleUp className="text-[#5651e5]" size={35} />
             </div>
           </Link>
         </div>
       </div>
       <div>
-        <h4 className=" p-6 flex justify-center">Todos los derechos reservados-2023</h4>
+        <h4 className=" p-6 flex justify-center">
+          Todos los derechos reservados-2023
+        </h4>
       </div>
     </div>
   );
