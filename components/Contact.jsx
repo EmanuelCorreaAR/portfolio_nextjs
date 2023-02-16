@@ -73,20 +73,28 @@ const Contact = () => {
                 </p>
               </div>
               <div>
-                <p className="uppercase pt-8">Connect with me</p>
-                <div className=" flex items-center justify-between py-4">
-                  <div className="rounded-full shadow-lg shadow-gray-500 p-4 cursor-pointer hover:scale-105 ease-in duration-300">
-                    <FaLinkedinIn />
-                  </div>
-                  <div className="rounded-full shadow-lg shadow-gray-500 p-4 cursor-pointer hover:scale-105 ease-in duration-300">
-                    <FaGithub />
-                  </div>
-                  <div className="rounded-full shadow-lg shadow-gray-500 p-4 cursor-pointer hover:scale-105 ease-in duration-300">
+                <p className="uppercase pt-10 text-[#5651e5]">Connect with me</p>
+                <div className="flex items-center gap-10 py-4">
+                  <Link href="https://www.linkedin.com/in/emanuel-s-correa-5b4b40139/">
+                    <div className="rounded-full shadow-lg shadow-gray-500 p-5 cursor-pointer hover:scale-105 ease-in duration-300">
+                      <FaLinkedinIn />
+                    </div>
+                  </Link>
+                  <Link href="https://github.com/EmanuelCorreaAR">
+                    <div className="rounded-full shadow-lg shadow-gray-500 p-5 cursor-pointer hover:scale-105 ease-in duration-300">
+                      <FaGithub />
+                    </div>
+                  </Link>
+                  <Link href="mailto:emanuel.sal.correa@gmail.com">
+                  <div className="rounded-full shadow-lg shadow-gray-500 p-5 cursor-pointer hover:scale-105 ease-in duration-300">
                     <AiOutlineMail />
                   </div>
-                  <div className="rounded-full shadow-lg shadow-gray-500 p-4 cursor-pointer hover:scale-105 ease-in duration-300">
-                    <BsFillPersonLinesFill />
-                  </div>
+                  </Link>                
+                  <Link href="https://drive.google.com/file/d/1wxdLc5UvYszHwDiOV43lq5nSWw5ZHx15/view?usp=share_link">
+                    <div className="rounded-full shadow-lg shadow-gray-500 p-5 cursor-pointer hover:scale-105 ease-in duration-300">
+                      <BsFillPersonLinesFill />
+                    </div>
+                  </Link>
                 </div>
               </div>
             </div>

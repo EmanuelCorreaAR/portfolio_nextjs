@@ -6,7 +6,7 @@ const Certificates = () => {
   return (
     <div id="certificates" className="w-full lg:h-screen pt-20">
       <div className="max-w-[1680px] mx-auto flex-col justify-center h-full">
-        <p className="uppercase text-xl tracking-widest pt-10 text-[#5651e5]">
+        <p className="uppercase text-xl tracking-widest pt-4 text-[#5651e5]">
           Certifications
         </p>
         <h2 className="py-4 pb-5">Certificate Of Knowledge</h2>

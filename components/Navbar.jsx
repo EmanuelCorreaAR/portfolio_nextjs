@@ -18,14 +18,12 @@ const Navbar = () => {
   };
 
   useEffect(() => {
-    if(
-      router.asPath ==="/wikidogs"
-    ){
-      setNavBg("transparent")
-      setLinkColor("ecf0f3")
-    }else{
-      setNavBg("#ecf0f3")
-      setLinkColor("#1f2937")
+    if (router.asPath === "/wikidogs") {
+      setNavBg("transparent");
+      setLinkColor("ecf0f3");
+    } else {
+      setNavBg("#ecf0f3");
+      setLinkColor("#1f2937");
     }
   }, [router]);
 
@@ -42,7 +40,7 @@ const Navbar = () => {
 
   return (
     <div
-    style={{backgroundColor:`${navBg}`}}
+      style={{ backgroundColor: `${navBg}` }}
       className={
         shadow
           ? "fixed w-full h-20 shadow-xl z-[100]"
@@ -59,7 +57,7 @@ const Navbar = () => {
           />
         </Link>
         <div>
-          <ul style={{color:`${linkColor}`}} className="hidden md:flex">
+          <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
             <Link href="#main" scroll={false}>
               <li className="mr-5 text-sm uppercase hover:border-b">Home</li>
             </Link>
@@ -147,18 +145,26 @@ const Navbar = () => {
                 Let's connect
               </p>
               <div className="flex items-center justify-between p-2 my-2 w-full sm:w[70%]">
-                <div className="rounded-full shadow-lg shadow-gray-500 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <FaLinkedinIn />
-                </div>
-                <div className="rounded-full shadow-lg shadow-gray-500 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <FaGithub />
-                </div>
-                <div className="rounded-full shadow-lg shadow-gray-500 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <AiOutlineMail />
-                </div>
-                <div className="rounded-full shadow-lg shadow-gray-500 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <BsFillPersonLinesFill />
-                </div>
+                <Link href="https://www.linkedin.com/in/emanuel-s-correa-5b4b40139/">
+                  <div className="rounded-full shadow-lg shadow-gray-500 p-5 cursor-pointer hover:scale-105 ease-in duration-300">
+                    <FaLinkedinIn />
+                  </div>
+                </Link>
+                <Link href="https://github.com/EmanuelCorreaAR">
+                  <div className="rounded-full shadow-lg shadow-gray-500 p-5 cursor-pointer hover:scale-105 ease-in duration-300">
+                    <FaGithub />
+                  </div>
+                </Link>
+                <Link href="mailto:emanuel.sal.correa@gmail.com">
+                  <div className="rounded-full shadow-lg shadow-gray-500 p-5 cursor-pointer hover:scale-105 ease-in duration-300">
+                    <AiOutlineMail />
+                  </div>
+                </Link>
+                <Link href="https://drive.google.com/file/d/1wxdLc5UvYszHwDiOV43lq5nSWw5ZHx15/view?usp=share_link">
+                  <div className="rounded-full shadow-lg shadow-gray-500 p-5 cursor-pointer hover:scale-105 ease-in duration-300">
+                    <BsFillPersonLinesFill />
+                  </div>
+                </Link>
               </div>
             </div>
           </div>
