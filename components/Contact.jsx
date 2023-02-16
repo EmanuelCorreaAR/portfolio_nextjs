@@ -110,6 +110,9 @@ const Contact = () => {
           </Link>
         </div>
       </div>
+      <div>
+        <h4 className=" p-6 flex justify-center">Todos los derechos reservados-2023</h4>
+      </div>
     </div>
   );
 };
