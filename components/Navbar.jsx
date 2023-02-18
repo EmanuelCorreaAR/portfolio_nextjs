@@ -2,7 +2,7 @@ import Link from "next/link";
 import React, { useState, useEffect } from "react";
 import { AiOutlineMenu, AiOutlineClose, AiOutlineMail } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
-import { BsFillPersonLinesFill } from "react-icons/bs";
+import { BsFillPersonLinesFill, BsMoonFill } from "react-icons/bs";
 import Image from "next/image";
 import { useRouter } from "next/router";
 
@@ -38,6 +38,17 @@ const Navbar = () => {
     window.addEventListener("scroll", handleShadow);
   }, []);
 
+  // const renderThemeChanger = () => {
+  //   return (
+  //     <button
+  //       onClick=""
+  //       className="rounded-full p-2 hover:bg-gray-200 cursor-pointer translate-x-[50%] translate-y-[-10%]"
+  //     >
+  //       <BsMoonFill />
+  //     </button>
+  //   );
+  // };
+
   return (
     <div
       style={{ backgroundColor: `${navBg}` }}
@@ -57,6 +68,8 @@ const Navbar = () => {
             alt="/"
           />
         </Link>
+        {/* <div>{renderThemeChanger()}
+        </div> */}
         <div>
           <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
             <Link href="#main" scroll={false}>
@@ -109,6 +122,12 @@ const Navbar = () => {
                 height="100"
                 alt="/"
               />
+              {/* <button
+                onClick=""
+                className="rounded-full shadow-lg shadow-gray-500 p-2 cursor-pointer"
+              >
+                <BsMoonFill />
+              </button> */}
               <div
                 onClick={handleNav}
                 className="rounded-full shadow-lg shadow-gray-500 p-2 cursor-pointer"

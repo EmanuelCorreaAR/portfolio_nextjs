@@ -147,6 +147,23 @@ const Skills = () => {
               </div>
             </div>
           </Link>
+          <Link href="https://firebase.google.com/">
+            <div className="p-6 shadow-xl shadow-gray-400 rounded-xl hover:scale-105 ease-in duration-300">
+              <div className="grid grid-cols-2 gap-4 justify-center items-center">
+                <div className="m-auto">
+                  <Image
+                    src="https://res.cloudinary.com/drscelx6f/image/upload/v1676749805/Portfolio_images/firebase_brkvmz.png"
+                    width="80"
+                    height="64"
+                    alt="/"
+                  />
+                </div>
+                <div className="flex flex-col items-center justify-center">
+                  <h3>FIREBASE</h3>
+                </div>
+              </div>
+            </div>
+          </Link>
           <Link href="https://www.docker.com/">
             <div className="p-6 shadow-xl shadow-gray-400 rounded-xl hover:scale-105 ease-in duration-300">
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
