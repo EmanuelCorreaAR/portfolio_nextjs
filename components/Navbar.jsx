@@ -52,7 +52,7 @@ const Navbar = () => {
           <Image
             className="w-auto h-auto "
             src="https://res.cloudinary.com/drscelx6f/image/upload/v1676474306/Portfolio_images/Logo_Marca_Personal_Masculino_con_Iniciales_y_Nombre_Profesional_Blanco_y_Negro_1_jcjd0q.png"
-            width="150"
+            width="120"
             height="150"
             alt="/"
           />
@@ -105,7 +105,7 @@ const Navbar = () => {
               <Image
                 className="translate-x-[-25%] translate-y-[7%] w-auto h-auto "
                 src="https://res.cloudinary.com/drscelx6f/image/upload/v1676474306/Portfolio_images/Logo_Marca_Personal_Masculino_con_Iniciales_y_Nombre_Profesional_Blanco_y_Negro_1_jcjd0q.png"
-                width="160"
+                width="120"
                 height="100"
                 alt="/"
               />
