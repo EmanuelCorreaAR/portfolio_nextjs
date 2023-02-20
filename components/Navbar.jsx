@@ -9,7 +9,7 @@ import { useRouter } from "next/router";
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
-  const [navBg, setNavBg] = useState("#ecf0f3");
+  const [navBg, setNavBg] = useState("#eff2f5");
   const [linkColor, setLinkColor] = useState("#1f2937");
   const router = useRouter();
 
@@ -20,9 +20,9 @@ const Navbar = () => {
   useEffect(() => {
     if (router.asPath === "/wikidogs") {
       setNavBg("transparent");
-      setLinkColor("ecf0f3");
+      setLinkColor("#eff2f5");
     } else {
-      setNavBg("#ecf0f3");
+      setNavBg("#eff2f5");
       setLinkColor("#1f2937");
     }
   }, [router]);
@@ -109,7 +109,7 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? "fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500"
+              ? "fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#eff2f5] p-10 ease-in duration-500"
               : "fixed left-[-100%] top-0 p-10 ease-in duration-500"
           }
         >
