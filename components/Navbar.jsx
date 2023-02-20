@@ -62,7 +62,7 @@ const Navbar = () => {
         <Link href="#main">
           <Image
             className="w-auto h-auto "
-            src="https://res.cloudinary.com/drscelx6f/image/upload/v1676474306/Portfolio_images/Logo_Marca_Personal_Masculino_con_Iniciales_y_Nombre_Profesional_Blanco_y_Negro_1_jcjd0q.png"
+            src="https://res.cloudinary.com/drscelx6f/image/upload/v1676905212/Portfolio_images/Logo_EC_Developer_asudwu.png"
             width="120"
             height="150"
             alt="/"
@@ -117,7 +117,7 @@ const Navbar = () => {
             <div className="flex items-center justify-between translate-y-[-42%] ">
               <Image
                 className="translate-x-[-25%] translate-y-[7%] w-auto h-auto "
-                src="https://res.cloudinary.com/drscelx6f/image/upload/v1676474306/Portfolio_images/Logo_Marca_Personal_Masculino_con_Iniciales_y_Nombre_Profesional_Blanco_y_Negro_1_jcjd0q.png"
+                src="https://res.cloudinary.com/drscelx6f/image/upload/v1676905212/Portfolio_images/Logo_EC_Developer_asudwu.png"
                 width="120"
                 height="100"
                 alt="/"
