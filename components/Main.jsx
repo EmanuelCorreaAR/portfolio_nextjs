@@ -19,7 +19,7 @@ const Main = () => {
           <p className="py-4 text-gray-600 max-w-[70%] m-auto">
             I'm a full-stack developer, with experience in front-end
             development, back-end development, and relational/non-relational
-            databases. My specialization is focused on the back-end development.
+            databases.
             My approach to life is "lifelong learning".
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-10">
