@@ -16,7 +16,7 @@ const Certificates = () => {
               <div className="grid sm:grid-col lg:grid-cols-2 gap-2 justify-center items-center  ">
                 <div className="m-auto">
                   <Image
-                  className="w-auto h-auto"
+                  className="w-auto h-auto rounded-tl-xl rounded-bl-xl"
                     src="https://res.cloudinary.com/drscelx6f/image/upload/v1676434055/Certificates_images/Titulo_Henry_f8u7vi.jpg"
                     width="200"
                     height="200"
@@ -35,25 +35,43 @@ const Certificates = () => {
               </div>
             </div>
           </Link>
-          <Link href="https://www.hackerrank.com/certificates/861970b4131e">
-            <div className="flex shadow-xl shadow-gray-400 rounded-xl hover:scale-105 ease-in duration-300">
-              <div className="grid sm:grid-col lg:grid-cols-2 gap-2 justify-center items-center">
+          <Link href="https://certificates.soyhenry.com/cert?id=a371a88c-e6f7-4e4b-8b5e-fbfbbdffa1ae">
+            <div className=" flex shadow-xl shadow-gray-400 rounded-xl hover:scale-105 ease-in duration-300">
+              <div className="grid sm:grid-col lg:grid-cols-2 gap-2 justify-center items-center  ">
                 <div className="m-auto">
                   <Image
-                  className="w-auto h-auto"
-                    src="https://res.cloudinary.com/drscelx6f/image/upload/v1676427644/Certificates_images/css_certificate_tpjsfc.jpg"
+                  className="w-auto h-auto rounded-tl-xl rounded-bl-xl"
+                    src="https://res.cloudinary.com/drscelx6f/image/upload/c_fill,h_1700,w_2200/Certificates_images/q6cuoiovgdfvfu547z6g.jpg"
                     width="200"
                     height="200"
                     alt="/"
                   />
                 </div>
                 <div className="flex flex-col text-center m-2">
-                  <p className="text-md">CSS</p>
+                  <p className="text-md">FRONT END DEVELOPER</p>
                   <p className="text-sm p-2 text-gray-600">
-                    It covers topics like exploring Cascading and Inheritance,
-                    exploring text styling fundamentals, understanding the use
-                    of layouts in CSS, understand the boxing of elements in CSS,
-                    among others.
+                  Alura's intensive program together with Oracle Next Education, lasting more than 326 hours, covering various topics, including personal development, programming, business agility, front-end development, React and entrepreneurship.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </Link>
+          <Link href="https://www.hackerrank.com/certificates/861970b4131e">
+            <div className="flex shadow-xl shadow-gray-400 rounded-xl hover:scale-105 ease-in duration-300">
+              <div className="grid sm:grid-col lg:grid-cols-2 gap-2 justify-center items-center">
+                <div className="m-auto">
+                  <Image
+                  className="w-auto h-auto rounded-tl-xl rounded-bl-xl"
+                    src="https://res.cloudinary.com/drscelx6f/image/upload/c_fill,h_1700,w_2200/Certificates_images/fjd17l1el025xxtyc5c0.jpg"
+                    width="200"
+                    height="200"
+                    alt="/"
+                  />
+                </div>
+                <div className="flex flex-col text-center m-2">
+                  <p className="text-md">FOUNDATIONAL C#</p>
+                  <p className="text-sm p-2 text-gray-600">
+                  This course offers a comprehensive introduction to C# programming, covering its core concepts, syntax, and practical application in software development.
                   </p>
                 </div>
               </div>
@@ -64,7 +82,7 @@ const Certificates = () => {
               <div className="grid sm:grid-col lg:grid-cols-2 gap-2 justify-center items-center">
                 <div className="m-auto">
                   <Image
-                  className="w-auto h-auto"
+                  className="w-auto h-auto rounded-tl-xl rounded-bl-xl"
                     src="https://res.cloudinary.com/drscelx6f/image/upload/v1676428063/Certificates_images/javascript_intermediate_certificate_aogga0.jpg"
                     width="200"
                     height="200"
@@ -86,7 +104,7 @@ const Certificates = () => {
               <div className="grid sm:grid-col lg:grid-cols-2 gap-2 justify-center items-center">
                 <div className="m-auto ">
                   <Image
-                  className="w-auto h-auto"
+                  className="w-auto h-auto rounded-tl-xl rounded-bl-xl"
                     src="https://res.cloudinary.com/drscelx6f/image/upload/v1676427679/Certificates_images/rest_api_intermediate_certificate_j3tbeh.jpg"
                     width="200"
                     height="200"
@@ -108,7 +126,7 @@ const Certificates = () => {
               <div className="grid sm:grid-col lg:grid-cols-2 gap-2 justify-center items-center">
                 <div className="m-auto">
                   <Image
-                  className="w-auto h-auto"
+                  className="w-auto h-auto rounded-tl-xl rounded-bl-xl"
                     src="https://res.cloudinary.com/drscelx6f/image/upload/v1676427559/Certificates_images/nodejs_basic_certificate_tj7xwm.jpg"
                     width="200"
                     height="200"
@@ -131,7 +149,7 @@ const Certificates = () => {
               <div className="grid sm:grid-col lg:grid-cols-2 gap-2 justify-center items-center">
                 <div className="m-auto">
                   <Image
-                  className="w-auto h-auto"
+                  className="w-auto h-auto rounded-tl-xl rounded-bl-xl"
                     src="https://res.cloudinary.com/drscelx6f/image/upload/v1676427667/Certificates_images/sql_basic_certificate_k6doke.jpg"
                     width="200"
                     height="200"
@@ -152,7 +170,7 @@ const Certificates = () => {
               <div className="grid sm:grid-col lg:grid-cols-2 gap-2 justify-center items-center">
                 <div className="m-auto">
                   <Image
-                  className="w-auto h-auto"
+                  className="w-auto h-auto rounded-tl-xl rounded-bl-xl"
                     src="https://res.cloudinary.com/drscelx6f/image/upload/v1676427660/Certificates_images/react_basic_certificate_p6hv6j.jpg"
                     width="200"
                     height="200"
@@ -175,7 +193,7 @@ const Certificates = () => {
               <div className="grid sm:grid-col lg:grid-cols-2 gap-2 justify-center items-center">
                 <div className="m-auto ">
                   <Image
-                  className="w-auto h-auto"
+                  className="w-auto h-auto rounded-tl-xl rounded-bl-xl"
                     src="https://res.cloudinary.com/drscelx6f/image/upload/v1676428020/Certificates_images/problem_solving_basic_certificate_kl5elp.jpg"
                     width="200"
                     height="200"

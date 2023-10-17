@@ -25,11 +25,12 @@ const About = () => {
             quickly. I consider that my previous work experience has developed
             my soft skills profile, which is why I consider myself a good
             resource to join a team.
+            I am currently working as a software developer at <a href="https://www.runaid.com.ar/" target="_blank" className="text-[#5651e5]"><strong>runaID</strong></a>, working on corporate projects both front and back, with database and infrastructure management.
           </p>
-          <Link href="https://res.cloudinary.com/drscelx6f/image/upload/v1676573745/Carta_de_Recomendacion_-_Ema_Correa_uikrii.jpg">
-            <p className="py-2 underline text-gray-600 ">
-              I am attaching a letter of recommendation from my last non-tech
-              employer.
+          <Link href="https://res.cloudinary.com/drscelx6f/image/upload/v1676573745/Carta_de_Recomendacion_-_Ema_Correa_uikrii.jpg" target="_blank">
+            <p className="py-2 text-[#5651e5]">
+              <strong>I am attaching a letter of recommendation from my last non-tech
+              employer.</strong>
             </p>
           </Link>
         </div>

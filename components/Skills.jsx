@@ -45,6 +45,23 @@ const Skills = () => {
               </div>
             </div>
           </Link>
+          <Link href="https://learn.microsoft.com/en-us/dotnet/csharp/">
+            <div className="p-6 shadow-xl shadow-gray-400 rounded-xl hover:scale-105 ease-in duration-300">
+              <div className="grid grid-cols-2 gap-4 justify-center items-center">
+                <div className="m-auto">
+                  <Image
+                    src="https://res.cloudinary.com/drscelx6f/image/upload/v1697565599/Portfolio_images/ksiwkpn20shfvbsycacp.png"
+                    width="57"
+                    height="54"
+                    alt="/"
+                  />
+                </div>
+                <div className="flex flex-col items-center justify-center">
+                  <h3>C#</h3>
+                </div>
+              </div>
+            </div>
+          </Link>
           <Link href="https://nodejs.org/es/">
             <div className="p-6 shadow-xl shadow-gray-400 rounded-xl hover:scale-105 ease-in duration-300">
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
