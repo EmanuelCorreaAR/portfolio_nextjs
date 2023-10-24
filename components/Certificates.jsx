@@ -16,7 +16,7 @@ const Certificates = () => {
               <div className="grid sm:grid-col lg:grid-cols-2 gap-2 justify-center items-center  ">
                 <div className="m-auto">
                   <Image
-                  className="w-auto h-auto rounded-tl-xl rounded-bl-xl"
+                  className="w-auto h-auto rounded-xl"
                     src="https://res.cloudinary.com/drscelx6f/image/upload/v1676434055/Certificates_images/Titulo_Henry_f8u7vi.jpg"
                     width="200"
                     height="200"
@@ -40,7 +40,7 @@ const Certificates = () => {
               <div className="grid sm:grid-col lg:grid-cols-2 gap-2 justify-center items-center  ">
                 <div className="m-auto">
                   <Image
-                  className="w-auto h-auto rounded-tl-xl rounded-bl-xl"
+                  className="w-auto h-auto rounded-xl"
                     src="https://res.cloudinary.com/drscelx6f/image/upload/c_fill,h_1700,w_2200/Certificates_images/q6cuoiovgdfvfu547z6g.jpg"
                     width="200"
                     height="200"
@@ -61,7 +61,7 @@ const Certificates = () => {
               <div className="grid sm:grid-col lg:grid-cols-2 gap-2 justify-center items-center">
                 <div className="m-auto">
                   <Image
-                  className="w-auto h-auto rounded-tl-xl rounded-bl-xl"
+                  className="w-auto h-auto rounded-xl"
                     src="https://res.cloudinary.com/drscelx6f/image/upload/c_fill,h_1700,w_2200/Certificates_images/fjd17l1el025xxtyc5c0.jpg"
                     width="200"
                     height="200"
@@ -82,7 +82,7 @@ const Certificates = () => {
               <div className="grid sm:grid-col lg:grid-cols-2 gap-2 justify-center items-center">
                 <div className="m-auto">
                   <Image
-                  className="w-auto h-auto rounded-tl-xl rounded-bl-xl"
+                  className="w-auto h-auto rounded-xl"
                     src="https://res.cloudinary.com/drscelx6f/image/upload/v1676428063/Certificates_images/javascript_intermediate_certificate_aogga0.jpg"
                     width="200"
                     height="200"
@@ -104,7 +104,7 @@ const Certificates = () => {
               <div className="grid sm:grid-col lg:grid-cols-2 gap-2 justify-center items-center">
                 <div className="m-auto ">
                   <Image
-                  className="w-auto h-auto rounded-tl-xl rounded-bl-xl"
+                  className="w-auto h-auto rounded-xl"
                     src="https://res.cloudinary.com/drscelx6f/image/upload/v1676427679/Certificates_images/rest_api_intermediate_certificate_j3tbeh.jpg"
                     width="200"
                     height="200"
@@ -126,7 +126,7 @@ const Certificates = () => {
               <div className="grid sm:grid-col lg:grid-cols-2 gap-2 justify-center items-center">
                 <div className="m-auto">
                   <Image
-                  className="w-auto h-auto rounded-tl-xl rounded-bl-xl"
+                  className="w-auto h-auto rounded-xl"
                     src="https://res.cloudinary.com/drscelx6f/image/upload/v1676427559/Certificates_images/nodejs_basic_certificate_tj7xwm.jpg"
                     width="200"
                     height="200"
@@ -170,7 +170,7 @@ const Certificates = () => {
               <div className="grid sm:grid-col lg:grid-cols-2 gap-2 justify-center items-center">
                 <div className="m-auto">
                   <Image
-                  className="w-auto h-auto rounded-tl-xl rounded-bl-xl"
+                  className="w-auto h-auto rounded-xl"
                     src="https://res.cloudinary.com/drscelx6f/image/upload/v1676427660/Certificates_images/react_basic_certificate_p6hv6j.jpg"
                     width="200"
                     height="200"
@@ -193,7 +193,7 @@ const Certificates = () => {
               <div className="grid sm:grid-col lg:grid-cols-2 gap-2 justify-center items-center">
                 <div className="m-auto ">
                   <Image
-                  className="w-auto h-auto rounded-tl-xl rounded-bl-xl"
+                  className="w-auto h-auto rounded-xl"
                     src="https://res.cloudinary.com/drscelx6f/image/upload/v1676428020/Certificates_images/problem_solving_basic_certificate_kl5elp.jpg"
                     width="200"
                     height="200"

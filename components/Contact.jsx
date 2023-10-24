@@ -65,8 +65,8 @@ const Contact = () => {
                 />
               </div>
               <div>
-                <h2 className="py-2">Emanuel Correa</h2>
-                <p>Full-Stack Developer</p>
+                <h2 className="py-2 text-[#5651e5]" >Emanuel Correa</h2>
+                <p>Software Developer</p>
                 <p className="py-2">
                   I am available for freelance or full-time positions. Contact
                   me and let's talk

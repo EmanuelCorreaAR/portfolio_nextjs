@@ -28,6 +28,23 @@ const Skills = () => {
               </div>
             </div>
           </Link>
+          <Link href="https://www.typescriptlang.org/">
+            <div className="p-6 shadow-xl shadow-gray-400 rounded-xl hover:scale-105 ease-in duration-300">
+              <div className="grid grid-cols-2 gap-4 justify-center items-center">
+                <div className="m-auto">
+                  <Image
+                    src="https://res.cloudinary.com/drscelx6f/image/upload/v1698169135/Portfolio_images/k24ql7ixyvh9xxl9ljpd.png"
+                    width="64"
+                    height="64"
+                    alt="/"
+                  />
+                </div>
+                <div className="flex flex-col items-center justify-center">
+                  <h3>TYPESCRIPT</h3>
+                </div>
+              </div>
+            </div>
+          </Link>
           <Link href="https://www.java.com/es/">
             <div className="p-6 shadow-xl shadow-gray-400 rounded-xl hover:scale-105 ease-in duration-300">
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
@@ -96,19 +113,19 @@ const Skills = () => {
               </div>
             </div>
           </Link>
-          <Link href="https://www.css3.com/">
+          <Link href="https://grails.org/">
             <div className="p-6 shadow-xl shadow-gray-400 rounded-xl hover:scale-105 ease-in duration-300">
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
                   <Image
-                    src="https://res.cloudinary.com/drscelx6f/image/upload/v1676410419/Portfolio_images/css-3_kzhorq.png"
-                    width="64"
+                    src="https://res.cloudinary.com/drscelx6f/image/upload/v1698169231/Portfolio_images/erlcv0hvndpogejzbcl5.png"
+                    width="91"
                     height="64"
                     alt="/"
                   />
                 </div>
                 <div className="flex flex-col items-center justify-center">
-                  <h3>CSS 3</h3>
+                  <h3>GRAILS</h3>
                 </div>
               </div>
             </div>
@@ -130,53 +147,36 @@ const Skills = () => {
               </div>
             </div>
           </Link>
-          <Link href="https://tailwindcss.com/">
+          <Link href="https://dart.dev/">
             <div className="pt-7 pb-7 shadow-xl shadow-gray-400 rounded-xl hover:scale-105 ease-in duration-300">
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
                   <Image
-                    src="https://res.cloudinary.com/drscelx6f/image/upload/v1676410419/Portfolio_images/tailwindcss_tuapw1.png"
-                    width="95"
+                    src="https://res.cloudinary.com/drscelx6f/image/upload/v1698170038/Portfolio_images/hy9anbs47k8xsihb4mrl.png"
+                    width="104"
                     height="64"
                     alt="/"
                   />
                 </div>
                 <div className="flex flex-col items-center justify-center">
-                  <h3 className="pr-2">TAILWIND CSS</h3>
+                  <h3 className="pr-2">DART</h3>
                 </div>
               </div>
             </div>
           </Link>
-          <Link href="https://lenguajehtml.com/html/">
+          <Link href="https://flutter.dev/">
             <div className="p-6 shadow-xl shadow-gray-400 rounded-xl hover:scale-105 ease-in duration-300">
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
                   <Image
-                    src="https://res.cloudinary.com/drscelx6f/image/upload/v1676410421/Portfolio_images/html-5_jfrvnf.png"
-                    width="64"
+                    src="https://res.cloudinary.com/drscelx6f/image/upload/v1698169018/Portfolio_images/jnxxw4uuvlp6w2ctuy1v.png"
+                    width="85"
                     height="64"
                     alt="/"
                   />
                 </div>
                 <div className="flex flex-col items-center justify-center">
-                  <h3>HTML 5</h3>
-                </div>
-              </div>
-            </div>
-          </Link>
-          <Link href="https://firebase.google.com/">
-            <div className="p-6 shadow-xl shadow-gray-400 rounded-xl hover:scale-105 ease-in duration-300">
-              <div className="grid grid-cols-2 gap-4 justify-center items-center">
-                <div className="m-auto">
-                  <Image
-                    src="https://res.cloudinary.com/drscelx6f/image/upload/v1676749805/Portfolio_images/firebase_brkvmz.png"
-                    width="80"
-                    height="64"
-                    alt="/"
-                  />
-                </div>
-                <div className="flex flex-col items-center justify-center">
-                  <h3>FIREBASE</h3>
+                  <h3>FLUTTER</h3>
                 </div>
               </div>
             </div>
@@ -194,6 +194,23 @@ const Skills = () => {
                 </div>
                 <div className="flex flex-col items-center justify-center">
                   <h3>DOCKER</h3>
+                </div>
+              </div>
+            </div>
+          </Link>
+          <Link href="https://firebase.google.com/">
+            <div className="p-6 shadow-xl shadow-gray-400 rounded-xl hover:scale-105 ease-in duration-300">
+              <div className="grid grid-cols-2 gap-4 justify-center items-center">
+                <div className="m-auto">
+                  <Image
+                    src="https://res.cloudinary.com/drscelx6f/image/upload/v1676749805/Portfolio_images/firebase_brkvmz.png"
+                    width="80"
+                    height="64"
+                    alt="/"
+                  />
+                </div>
+                <div className="flex flex-col items-center justify-center">
+                  <h3>FIREBASE</h3>
                 </div>
               </div>
             </div>
@@ -245,6 +262,23 @@ const Skills = () => {
                 </div>
                 <div className="flex flex-col items-center justify-center">
                   <h3>MYSQL</h3>
+                </div>
+              </div>
+            </div>
+          </Link>
+          <Link href="https://www.microsoft.com/es-ar/sql-server">
+            <div className="p-6 shadow-xl shadow-gray-400 rounded-xl hover:scale-105 ease-in duration-300">
+              <div className="grid grid-cols-2 gap-4 justify-center items-center">
+                <div className="m-auto">
+                  <Image
+                    src="https://res.cloudinary.com/drscelx6f/image/upload/v1698168807/Portfolio_images/qyufftrjazzdlefxd9hv.png"
+                    width="79"
+                    height="64"
+                    alt="/"
+                  />
+                </div>
+                <div className="flex flex-col items-center justify-center">
+                  <h3>SQL SERVER</h3>
                 </div>
               </div>
             </div>
