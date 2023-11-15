@@ -17,7 +17,7 @@ const Main = () => {
           </h1>
           <h1 className="py-2 text-gray-800">A Software Developer</h1>
           <p className="py-4 text-gray-600 max-w-[70%] m-auto">
-            I'm a software developer, with experience in front-end back-end development, relational and non-relational database management and infrastructure administration. My approach to life is "lifelong learning," always seeking growth and improvement.
+            I'm a Software Developer, with experience in front-end back-end development, relational and non-relational database management and infrastructure administration. My approach to life is "lifelong learning," always seeking growth and improvement.
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-10">
             <Link href="https://www.linkedin.com/in/emanuel-s-correa-5b4b40139/">
